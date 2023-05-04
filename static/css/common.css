@@ -5,6 +5,26 @@
 	--black:#000;
 	--light-gray:#EEE;
 	--gray:#999;
+
+	/* 사용자 컨셉 컬러 */
+	--primary:#000;
+	--primary_light:#000;
+	--primary_dark:#000;
+	--secondary:#000;
+	--secondary-light: #000;
+	--secondary-dark: #000;
+	--tertiary:#000;
+	--tertiary-light: #000;
+	--tertiary-dark: #000;
+	--point:#000;
+	--error:#000;
+
+	--font-default:#000;
+	--font-readonly: #000;
+	--font-disabled: #000;
+	--font-active: #000;
+	--font-error: #000;
+
 }
 
 html, body{
