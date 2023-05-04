@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+:root {
+	--white:#fff;
+	--black:#000;
+	--light-gray:#EEE;
+	--gray:#999;
+}
+
+html, body{
+	position: relative;
+	width:100%;
+	height: 100%;
+	font-family:'Noto Sans KR', sans-serif;
+	color:var(--balck);
+	scroll-behavior: smooth;
+}
+input, select, button, textarea, a, strong{
+	font-family:'Noto Sans KR', sans-serif;
+	font-size:inherit;
+	line-height:inherit;
+	color:inherit;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+
+.swiper-pagination { cursor:pointer;}
+table{width:100%;}
+:focus{outline:0}
+
+/* Header
+****************************************************************/
+#header {
+}
+
+/* gnb
+****************************************************************/
+#gnb {
+}
+
+/* gnb 1depth
+****************************************************************/
+#gnb>li {
+}
+
+/* gnb 2depth
+****************************************************************/
+#gnb>li>ul {
+
+}
+
+
+/* bgGnb
+****************************************************************/
+.bgGnb {}
+
+/* btn_top 
+****************************************************************/
+.btn_top {
+	position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+}
+.btn_top > a {}
+.btn_top > a:before {}
+
+/* main visual 
+****************************************************************/
+
+
+/* article 공통
+****************************************************************/
+
+/* footer
+****************************************************************/
