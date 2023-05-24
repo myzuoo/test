@@ -1,52 +1,22 @@
 @charset "utf-8";
 
-:root {
-	--white:#fff;
-	--black:#000;
-	--light-gray:#EEE;
-	--gray:#999;
-
-	/* 사용자 컨셉 컬러 */
-	--primary:#000;
-	--primary_light:#000;
-	--primary_dark:#000;
-	--secondary:#000;
-	--secondary-light: #000;
-	--secondary-dark: #000;
-	--tertiary:#000;
-	--tertiary-light: #000;
-	--tertiary-dark: #000;
-	--point:#000;
-	--error:#000;
-
-	--font-default:#000;
-	--font-readonly: #000;
-	--font-disabled: #000;
-	--font-active: #000;
-	--font-error: #000;
-
-}
-
 html, body{
 	position: relative;
 	width:100%;
 	height: 100%;
-	font-family:'Noto Sans KR', sans-serif;
-	color:var(--balck);
 	scroll-behavior: smooth;
 }
 input, select, button, textarea, a, strong{
-	font-family:'Noto Sans KR', sans-serif;
-	font-size:inherit;
-	line-height:inherit;
-	color:inherit;
 	-webkit-appearance: none;
 	-webkit-border-radius: 0;
 }
 
-.swiper-pagination { cursor:pointer;}
 table{width:100%;}
 :focus{outline:0}
+
+.swiper-pagination {
+	cursor: pointer;
+}
 
 /* Header
 ****************************************************************/
